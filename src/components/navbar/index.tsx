@@ -100,7 +100,7 @@ function Index() {
     },
     {
       title: "Committess",
-      link: "/committess",
+      link: "/committe",
       enabled: true,
     },
     {
@@ -127,23 +127,23 @@ function Index() {
       title: "Archive",
       dropdown: [
         {
-          title: "ICAC3N - 2023",
+          title: "ICIMMI - 2023",
           link: "/archive/2023",
         },
         {
-          title: "ICAC3N - 2022",
+          title: "ICIMMI - 2022",
           link: "/archive/2022",
         },
         {
-          title: "ICAC3N - 2021",
+          title: "ICIMMI - 2021",
           link: "/archive/2021",
         },
         {
-          title: "ICAC3N - 2020",
+          title: "ICIMMI - 2020",
           link: "/archive/2020",
         },
         {
-          title: "ICAC3N - 2018",
+          title: "ICIMMI - 2018",
           link: "/archive/2018",
         },
       ],
@@ -172,8 +172,8 @@ function Index() {
   };
 
   return (
-    <div data-theme="cmyk">
-      <nav className="">
+    <div >
+      <nav className="bg-red-800">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between gap-y-6 p-4">
           <div className={"flex w-full flex-row items-center justify-between"}>
             <Link href="/" className="flex items-center">

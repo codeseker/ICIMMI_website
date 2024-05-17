@@ -75,17 +75,12 @@ module.exports = {
       },
     },
   },
-  daisyui: {
-    themes: ["cupcake", "dark", "cmyk"],
-  },
-
   plugins: [
     require("prettier-plugin-tailwindcss"),
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
     require("@tailwindcss/line-clamp"),
     require("tailwind-scrollbar")({ nocompatible: true }),
-    require("daisyui"),
   ],
   darkMode: "class",
 };

@@ -7,7 +7,7 @@ const Speakers = () => {
     return (
         <>
             <Head>
-                <title>Speakers - ICAC3N - Galgotias College of Engineering and Technology</title>
+                <title>Speakers - ICIMMI - POORNIMA INSTITUTE OF Engineering and Technology</title>
                 <meta name="title" content="Speakers - ICAC3N - Galgotias College of Engineering"/>
                 <meta name="description"
                       content="Speakers - 5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"/>
@@ -32,7 +32,7 @@ const Speakers = () => {
                       content="https://icac3n.in/api/og"/>
             </Head>
             <div className={"my-8 min-h-[calc(100vh-28.8rem)]"}>
-                <h1 className={'text-3xl font-bold text-center mb-10'}>Past Speakers of ICACCCN 2023</h1>
+                <h1 className={'text-3xl font-bold text-center mb-10'}>Past Speakers of ICIMMI 2023</h1>
                 <div className={'grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8 px-5'}>
                     {
                         speakers.map((speaker, index) => {

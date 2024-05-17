@@ -34,16 +34,15 @@ export default function PaperSubmission() {
           Submission Guidelines:
         </h2>
       </div>
-      <p className="">
+      <p className="w-full py-4">
         {" "}
         To submit a paper for ICIMMI-2023, authors must follow the ACM
         conference proceedings format. The submission template for the
         conference is available at{" "}
-        <span className="text-center text-sm font-bold text-blue-500 underline lg:text-start lg:text-2xl">
+        <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
-            href={
-              "https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
-            }
+            href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
+            className="break-all"
           >
             https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx
           </Link>
@@ -79,7 +78,44 @@ export default function PaperSubmission() {
         </li>
       </ul>
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+      <h2
+        className={
+          "my-3 text-center text-lg font-bold lg:text-start lg:text-2xl"
+        }
+      >
+        Downloads:
+      </h2>
+      <div className="flex flex-col gap-y-3">
+        <Link
+          href="/acm_submission_template.docx"
+          download="/acm_submission_template.docx"
+          className="inline-flex w-[20%] items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600"
+        >
+          <svg
+            className="mr-2 h-4 w-4 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+          </svg>
+          <span>Paper Template Doc</span>
+        </Link>
+        <Link
+          href={"/acmart-primary.zip"}
+          download={"/acmart-primary.zip"}
+          className="inline-flex w-[20%] items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600"
+        >
+          <svg
+            className="mr-2 h-4 w-4 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+          </svg>
+          <span>Paper Template Latex</span>
+        </Link>
+      </div>
       <Sponsored />
     </div>
-  );
+    );
 }
