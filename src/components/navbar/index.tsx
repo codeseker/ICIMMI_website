@@ -105,7 +105,7 @@ function Index() {
     },
     {
       title: "Publications",
-      link: "/publications",
+      link: "/publication",
       enabled: true,
     },
     {

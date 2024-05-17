@@ -24,7 +24,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/publications",
+        source: "/publication",
         destination: "/publications",
         permanent: true,
       },
@@ -36,7 +36,12 @@ const nextConfig = {
       {
         source: "/committes",
         destination: "/committe",
-        permanent:true,
+        permanent: true,
+      },
+      {
+        source: "/partners",
+        destination: "/partners",
+        permanent: true,
       },
     ];
   },
